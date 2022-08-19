@@ -8,3 +8,14 @@ Created on Aug. 17, 2022
 
 @author: Said
 '''
+class Book():
+    def __init__(self,Title, Author, Price):
+        self.title = Title
+        self.author= Author
+        self.price = Price
+    def view(self):
+        return(self.title,self.author,self.price)
+        
+book1 = Book("Harry Potter, " , "J.K Rowling, " , 15 )
+
+print(book1.view())
