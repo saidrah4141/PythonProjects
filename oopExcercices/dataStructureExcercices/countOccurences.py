@@ -8,7 +8,7 @@ and create a dictionary to show the count of each element.
 '''
 
 
-sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89,45,11]
+sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89,45,11,11]
 list1=[]
 occurences={}
 # Printing count of each item   {11: 2, 45: 3, 8: 1, 23: 2, 89: 1}
